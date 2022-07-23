@@ -1,0 +1,82 @@
+.afterClick {
+    pointer-events: none;
+} 
+
+.beforeClick {
+    pointer-events: auto; 
+}
+
+.tryBtn {
+    visibility: hidden;
+}
+
+.tryBtn-Active {
+    visibility: visible;
+}
+
+button {
+    width: 15rem;
+    height:auto;
+    color: white;
+    font-weight: bold;
+    font-size: larger;
+    background-color: lightskyblue;
+    border: solid;
+    border-width: 5px;
+    border-color: lightblue;
+    border-radius: 4px;
+    padding: 6px;
+    margin: 4px;
+}
+
+.btnLayout {
+    columns: 100px 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.heading {
+    width: 100%;
+    display:block;
+    justify-content: center;
+    text-align: center;
+    background-color: lightblue;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    padding: 3px 0;
+}
+.container {
+    columns: 100px 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.left {
+    padding: 2rem;
+    margin: 7px;
+}
+.middle {
+    padding: 2rem;
+    margin: 7px;
+}
+.switch {
+    padding: 2rem;
+    margin: 7px;
+}
+.right {
+    padding: 2rem;
+    margin: 7px;
+}
+.center {
+    width: 100%;
+    display:block;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    padding: 3px 0;
+}
